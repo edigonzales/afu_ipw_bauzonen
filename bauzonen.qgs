@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.16.1-Hannover" projectname="" saveDateTime="2021-01-20T20:46:23" saveUserFull="Stefan Ziegler" saveUser="stefan">
+<qgis version="3.16.1-Hannover" projectname="" saveDateTime="2021-01-20T21:07:44" saveUserFull="Stefan Ziegler" saveUser="stefan">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -793,6 +793,9 @@ def my_form_open(dialog, layer, feature):
       <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
       <SelectionColorRedPart type="int">255</SelectionColorRedPart>
     </Gui>
+    <Layouts>
+      <lastLayoutExportDir type="QString">/Users/stefan/sources/afu_ipw_bauzonen/bauzone2.pdf</lastLayoutExportDir>
+    </Layouts>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
@@ -913,7 +916,7 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem id="" followPresetName="" mapFlags="0" positionLock="false" background="true" excludeFromExports="0" opacity="1" drawCanvasItems="true" referencePoint="0" templateUuid="{aafc6489-abaa-4064-b0a7-d4d5c92110c1}" uuid="{aafc6489-abaa-4064-b0a7-d4d5c92110c1}" groupUuid="" position="3.81612,4.29313,mm" followPreset="false" mapRotation="0" blendMode="0" isTemporal="0" size="289.548,202.493,mm" keepLayerSet="false" positionOnPage="3.81612,4.29313,mm" outlineWidthM="0.3,mm" zValue="1" visibility="1" labelMargin="0,mm" frame="false" itemRotation="0" frameJoinStyle="miter" type="65639">
+      <LayoutItem id="" positionLock="false" background="false" arrowHeadFillColor="255,0,0,255" arrowHeadOutlineColor="255,0,0,255" excludeFromExports="0" opacity="1" outlineWidth="1" startMarkerMode="0" referencePoint="0" templateUuid="{f320bbcb-df32-4190-a4a3-b18415bea26b}" uuid="{f320bbcb-df32-4190-a4a3-b18415bea26b}" groupUuid="" position="132.849,29.7209,mm" blendMode="0" size="73.9373,16.8806,mm" positionOnPage="132.849,29.7209,mm" outlineWidthM="0.3,mm" zValue="2" visibility="1" endMarkerFile="" frame="false" itemRotation="0" startMarkerFile="" frameJoinStyle="miter" type="65645" markerMode="1" arrowHeadWidth="4">
         <FrameColor alpha="255" red="0" green="0" blue="0"/>
         <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
         <LayoutObject>
@@ -926,7 +929,57 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent ymax="1240694.30295884818769991" xmax="2627461.51824985258281231" xmin="2627053.18741946388036013" ymin="1240408.74045884818769991"/>
+        <symbol alpha="1" force_rhr="0" clip_to_extent="1" name="" type="line">
+          <layer locked="0" class="SimpleLine" pass="0" enabled="1">
+            <prop v="0" k="align_dash_pattern"/>
+            <prop v="square" k="capstyle"/>
+            <prop v="5;2" k="customdash"/>
+            <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+            <prop v="MM" k="customdash_unit"/>
+            <prop v="0" k="dash_pattern_offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+            <prop v="MM" k="dash_pattern_offset_unit"/>
+            <prop v="0" k="draw_inside_polygon"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="255,0,0,255" k="line_color"/>
+            <prop v="solid" k="line_style"/>
+            <prop v="1.1" k="line_width"/>
+            <prop v="MM" k="line_width_unit"/>
+            <prop v="0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0" k="ring_filter"/>
+            <prop v="0" k="tweak_dash_pattern_on_corners"/>
+            <prop v="0" k="use_custom_dash"/>
+            <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <nodes>
+          <node y="0" x="73.9373"/>
+          <node y="16.8806" x="0"/>
+        </nodes>
+      </LayoutItem>
+      <LayoutItem id="" followPresetName="" mapFlags="0" positionLock="false" background="true" excludeFromExports="0" opacity="1" drawCanvasItems="true" referencePoint="0" templateUuid="{aafc6489-abaa-4064-b0a7-d4d5c92110c1}" uuid="{aafc6489-abaa-4064-b0a7-d4d5c92110c1}" groupUuid="" position="3.72597,3.75358,mm" followPreset="false" mapRotation="0" blendMode="0" isTemporal="0" size="289.548,202.493,mm" keepLayerSet="false" positionOnPage="3.72597,3.75358,mm" outlineWidthM="0.3,mm" zValue="1" visibility="1" labelMargin="0,mm" frame="false" itemRotation="0" frameJoinStyle="miter" type="65639">
+        <FrameColor alpha="255" red="0" green="0" blue="0"/>
+        <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <Extent ymax="1240966.41139524453319609" xmax="2627124.74622026132419705" xmin="2627022.6635126625187695" ymin="1240895.02077024336904287"/>
         <LayerSet/>
         <ComposerMapGrid offsetY="0" topAnnotationPosition="0" rotatedTicksEnabled="0" leftAnnotationPosition="0" rotatedTicksMinimumAngle="0" topAnnotationDirection="1" annotationExpression="" leftAnnotationDirection="0" frameFillColor1="255,255,255,255" showAnnotation="1" leftFrameDivisions="0" gridFrameMargin="0" leftAnnotationDisplay="0" topFrameDivisions="0" annotationPrecision="0" rotatedAnnotationsLengthMode="0" crossLength="3" blendMode="0" rotatedAnnotationsMarginToCorner="0" rotatedAnnotationsMinimumAngle="0" gridFrameStyle="2" show="1" gridStyle="1" offsetX="0" bottomAnnotationDirection="2" rightAnnotationPosition="0" frameAnnotationDistance="3" rightAnnotationDisplay="0" rotatedTicksMarginToCorner="0" unit="0" frameFillColor2="0,0,0,255" gridFramePenColor="0,0,0,255" position="3" bottomAnnotationDisplay="0" topAnnotationDisplay="0" gridFrameSideFlags="15" gridFramePenThickness="0.29999999999999999" rightFrameDivisions="0" rightAnnotationDirection="0" minimumIntervalWidth="50" intervalY="100" bottomFrameDivisions="0" gridFrameWidth="2" name="Grid 1" annotationFormat="0" rotatedTicksLengthMode="0" intervalX="100" bottomAnnotationPosition="0" rotatedAnnotationsEnabled="0" maximumIntervalWidth="100" uuid="{6d41894e-435c-4008-b600-9c33e303cc99}">
           <lineStyle>
@@ -1057,6 +1110,17 @@ def my_form_open(dialog, layer, feature):
       </LayoutItem>
       <customproperties>
         <property key="atlasRasterFormat" value="png"/>
+        <property key="forceVector" value="0"/>
+        <property key="pdfAppendGeoreference" value="1"/>
+        <property key="pdfCreateGeoPdf" value="0"/>
+        <property key="pdfDisableRasterTiles" value="0"/>
+        <property key="pdfExportThemes" value=""/>
+        <property key="pdfIncludeMetadata" value="1"/>
+        <property key="pdfLayerOrder" value="bauzonengrenzen_2021_01_20_bauzonengrenze_e0f561f2_819c_4fc0_a548_a4b66c06906a~~~Hintergrundkarte_schwarz_weiss_334a1814_9e0c_4ed6_a5e5_07ca378b4a1c~~~Grundnutzung__Nutzungsplanung__bcfa4db4_525c_45ed_8d5f_837633836764"/>
+        <property key="pdfLosslessImages" value="0"/>
+        <property key="pdfOgcBestPracticeFormat" value="0"/>
+        <property key="pdfSimplify" value="1"/>
+        <property key="pdfTextFormat" value="0"/>
       </customproperties>
       <Atlas pageNameExpression="" sortFeatures="0" enabled="0" coverageLayer="" hideCoverage="0" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0"/>
     </Layout>
