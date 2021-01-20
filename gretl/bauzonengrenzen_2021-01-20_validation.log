@@ -1,0 +1,134 @@
+Info: ilivalidator-1.11.3-0de2d606b648b74ab53fce8201a0fdf70b208a47
+Info: ili2c-5.1.1-20200501
+Info: iox-ili-1.21.0-731076775d8b9bd0599802cf5a0324bc3a1c21d8
+Info: User <stefan>
+Info: Start date 2021-01-20 20:32
+Info: maxMemory 524288 KB
+Info: dataFile </Users/stefan/sources/afu_ipw_bauzonen/gretl/bauzonengrenzen_2021-01-20.xtf>
+Info: modelNames <SO_ARP_Bauzonengrenzen_20210120>
+Info: ilidirs <../model/;http://models.geo.admin.ch>
+Info: lookup model <SO_ARP_Bauzonengrenzen_20210120> in repository <../model/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <../model/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CoordSys> 2.3 in repository <../model/>
+Info: lookup model <CoordSys> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CoordSys> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <Units> 2.3 in repository <../model/>
+Info: lookup model <Units> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <Units> 2.3 in repository <http://models.interlis.ch/>
+Info: ilifile </Users/stefan/.ilicache/models.interlis.ch/refhb23/CoordSys-20151124.ili>
+Info: ilifile </Users/stefan/.ilicache/models.interlis.ch/refhb23/Units-20120220.ili>
+Info: ilifile </Users/stefan/.ilicache/models.geo.admin.ch/CH/CHBase_Part1_GEOMETRY_V1.ili>
+Info: ilifile <../model/SO_ARP_Bauzonengrenzen_20210120.ili>
+Info: validate data...
+Info: assume unknown external objects
+Info: first validation pass...
+Error: line 19: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 521: duplicate coord at (2596963.01, 1227397.25, NaN)
+Error: line 19: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 521: duplicate coord at (2597316.53, 1227343.18, NaN)
+Error: line 19: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 521: duplicate coord at (2596676.26, 1227331.7, NaN)
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596403.480, 1227362.160), coord2 (2596403.820, 1227361.650), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596403.820, 1227361.650), coord2 (2596404.140, 1227361.140), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596404.140, 1227361.140), coord2 (2596404.470, 1227360.620), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596404.470, 1227360.620), coord2 (2596404.780, 1227360.100), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596404.780, 1227360.100), coord2 (2596405.090, 1227359.570), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596406.250, 1227357.440), coord2 (2596406.520, 1227356.890), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596406.520, 1227356.890), coord2 (2596406.790, 1227356.340), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596406.790, 1227356.340), coord2 (2596407.050, 1227355.790), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596407.050, 1227355.790), coord2 (2596407.300, 1227355.240), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596407.300, 1227355.240), coord2 (2596407.540, 1227354.680), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596407.540, 1227354.680), coord2 (2596411.770, 1227344.640), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596411.770, 1227344.640), coord2 (2596415.150, 1227337.000), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596415.150, 1227337.000), coord2 (2596418.030, 1227330.580), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596418.030, 1227330.580), coord2 (2596420.250, 1227325.070), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597382.850, 1227243.120), coord2 (2597383.760, 1227243.600), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597383.760, 1227243.600), coord2 (2597384.670, 1227244.060), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597384.670, 1227244.060), coord2 (2597385.550, 1227244.510), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597385.550, 1227244.510), coord2 (2597386.430, 1227244.940), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.530, 1227394.430), coord2 (2597292.558, 1227394.636), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.520, 1227394.210), coord2 (2597292.530, 1227394.430), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.510, 1227393.990), coord2 (2597292.520, 1227394.210), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.500, 1227393.770), coord2 (2597292.510, 1227393.990), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.500, 1227393.770), coord2 (2597292.510, 1227393.550), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.510, 1227393.550), coord2 (2597292.520, 1227393.330), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.520, 1227393.330), coord2 (2597292.530, 1227393.110), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.530, 1227393.110), coord2 (2597292.560, 1227392.890), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597292.560, 1227392.890), coord2 (2597292.580, 1227392.670), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596400.390, 1227366.300), coord2 (2596400.720, 1227365.900), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596400.720, 1227365.900), coord2 (2596401.050, 1227365.500), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596401.050, 1227365.500), coord2 (2596401.370, 1227365.100), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596402.000, 1227364.270), coord2 (2596402.300, 1227363.860), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596402.300, 1227363.860), coord2 (2596402.600, 1227363.440), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597360.630, 1227233.380), coord2 (2597360.680, 1227233.590), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597360.570, 1227233.170), coord2 (2597360.630, 1227233.380), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597360.250, 1227232.380), coord2 (2597360.340, 1227232.570), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597360.160, 1227232.180), coord2 (2597360.250, 1227232.380), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597359.820, 1227231.630), coord2 (2597359.940, 1227231.810), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597359.700, 1227231.450), coord2 (2597359.820, 1227231.630), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597358.980, 1227230.650), coord2 (2597359.140, 1227230.800), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597358.820, 1227230.510), coord2 (2597358.980, 1227230.650), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596317.820, 1227326.630), coord2 (2596318.170, 1227326.850), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596317.460, 1227326.410), coord2 (2596317.820, 1227326.630), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596314.550, 1227324.880), coord2 (2596314.980, 1227325.080), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596314.110, 1227324.680), coord2 (2596314.550, 1227324.880), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596312.780, 1227324.140), coord2 (2596313.230, 1227324.310), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596312.330, 1227323.970), coord2 (2596312.780, 1227324.140), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596311.430, 1227323.650), coord2 (2596311.880, 1227323.800), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596310.970, 1227323.500), coord2 (2596311.430, 1227323.650), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596410.290, 1227277.970), coord2 (2596410.510, 1227278.000), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596410.510, 1227278.000), coord2 (2596410.720, 1227278.020), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596966.990, 1227231.070), coord2 (2596990.780, 1227246.620), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596990.780, 1227246.620), coord2 (2597002.300, 1227254.380), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597020.190, 1227266.480), coord2 (2597025.280, 1227269.840), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597025.280, 1227269.840), coord2 (2597036.970, 1227285.090), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595699.760, 1227326.420), coord2 (2595699.800, 1227326.180), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595699.800, 1227326.180), coord2 (2595699.830, 1227325.940), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595699.610, 1227327.100), coord2 (2595699.760, 1227326.420), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595699.800, 1227324.010), coord2 (2595699.830, 1227324.250), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595699.760, 1227323.770), coord2 (2595699.800, 1227324.010), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595699.720, 1227323.530), coord2 (2595699.760, 1227323.770), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595692.570, 1227353.950), coord2 (2595699.280, 1227352.760), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595699.150, 1227352.070), coord2 (2595699.280, 1227352.760), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595698.800, 1227350.010), coord2 (2595698.900, 1227350.700), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595698.690, 1227349.320), coord2 (2595698.800, 1227350.010), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595698.270, 1227336.080), coord2 (2595698.320, 1227335.380), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595698.320, 1227335.380), coord2 (2595698.390, 1227334.680), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595698.940, 1227330.530), coord2 (2595699.050, 1227329.840), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2595699.050, 1227329.840), coord2 (2595699.180, 1227329.160), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596869.460, 1227316.040), coord2 (2596876.330, 1227318.650), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596876.330, 1227318.650), coord2 (2596895.370, 1227335.920), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596963.010, 1227397.250), coord2 (2596972.730, 1227386.990), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597042.240, 1227317.160), coord2 (2597044.800, 1227314.000), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597044.800, 1227314.000), coord2 (2597044.960, 1227313.760), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597046.430, 1227310.410), coord2 (2597046.490, 1227310.140), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597046.490, 1227310.140), coord2 (2597046.560, 1227309.860), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597296.780, 1227400.420), coord2 (2597296.990, 1227400.510), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597296.570, 1227400.320), coord2 (2597296.780, 1227400.420), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597295.780, 1227399.860), coord2 (2597295.980, 1227399.990), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597295.590, 1227399.740), coord2 (2597295.780, 1227399.860), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597311.740, 1227353.010), coord2 (2597316.530, 1227343.180), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597317.860, 1227347.090), coord2 (2597318.000, 1227347.150), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597318.000, 1227347.150), coord2 (2597318.630, 1227345.790), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596676.260, 1227331.700), coord2 (2596678.720, 1227325.330), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596655.870, 1227311.340), coord2 (2596656.420, 1227332.150), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2596656.420, 1227332.150), coord2 (2596656.880, 1227352.200), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597044.530, 1227295.400), coord2 (2597044.720, 1227295.700), tids 521, 521
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2597044.340, 1227295.110), coord2 (2597044.530, 1227295.400), tids 521, 521
+Error: line 28: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 487: duplicate coord at (2612936.862, 1239535.997, NaN)
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Intersection coord1 (2613080.501, 1239229.648), tids 487, 487
+Error: line 41: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 495: duplicate coord at (2600524.455, 1215455.767, NaN)
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2600513.120, 1215471.490), coord2 (2600524.455, 1215455.767), tids 495, 495
+Error: line 49: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 532: duplicate coord at (2636476.688, 1244116.203, NaN)
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2636476.688, 1244116.203), coord2 (2636518.120, 1244158.120), tids 532, 532
+Error: line 55: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 536: duplicate coord at (2633687.193, 1243963.674, NaN)
+Error: line 61: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 538: duplicate coord at (2608206.181, 1250558.159, NaN)
+Error: line 61: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 538: duplicate coord at (2608347.742, 1250246.451, NaN)
+Error: line 61: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 538: duplicate coord at (2608495.817, 1250764.11, NaN)
+Error: line 61: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze: tid 538: duplicate coord at (2608020.99, 1251477.672, NaN)
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2608206.181, 1250558.159), coord2 (2608206.190, 1250558.300), tids 538, 538
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2608347.742, 1250246.451), coord2 (2608353.270, 1250258.520), tids 538, 538
+Error: GeometryCHLV95_V1.SurfaceStructure.Surface: Overlay coord1 (2608495.817, 1250764.110), coord2 (2608495.920, 1250764.250), tids 538, 538
+Info: second validation pass...
+Info: validate set constraint SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze.EinzugsgebieteAreaConstraint...
+Info: /Users/stefan/sources/afu_ipw_bauzonen/gretl/bauzonengrenzen_2021-01-20.xtf: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen BID=SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen
+Info:      73 objects in CLASS SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze
+Info: ...validation failed

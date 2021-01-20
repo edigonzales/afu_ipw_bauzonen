@@ -1,0 +1,34 @@
+Info: ili2pg-4.4.1-e9ddc1895e1a7f13ff029644af1442ddb79dcaa4
+Info: ili2c-5.1.1-20200501
+Info: iox-ili-1.21.0-731076775d8b9bd0599802cf5a0324bc3a1c21d8
+Info: java.version 11.0.9.1
+Info: user.name <stefan>
+Info: maxMemory 524288 KB
+Info: currentTime 2021-01-20 20:32:10
+Info: dbschema <arp_bauzonengrenzen_pub>
+Info: databaseProduct <PostgreSQL>
+Info: databaseVersion <12.5>
+Info: driverName <PostgreSQL JDBC Driver>
+Info: driverVersion <42.2.5>
+Info: postGISVersion <POSTGIS="3.0.1 0bfc8c0" [EXTENSION] PGSQL="120" GEOS="3.8.1-CAPI-1.13.3" PROJ="6.3.1" LIBXML="2.9.1" LIBJSON="0.11" LIBPROTOBUF="1.0.2" WAGYU="0.4.3 (Internal)">
+Info: compile models...
+Info: lookup model <SO_ARP_Bauzonengrenzen_20210120> in repository <../model/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <../model/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CoordSys> 2.3 in repository <../model/>
+Info: lookup model <CoordSys> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CoordSys> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <Units> 2.3 in repository <../model/>
+Info: lookup model <Units> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <Units> 2.3 in repository <http://models.interlis.ch/>
+Info: ilifile </Users/stefan/.ilicache/models.interlis.ch/refhb23/Units-20120220.ili>
+Info: ilifile </Users/stefan/.ilicache/models.interlis.ch/refhb23/CoordSys-20151124.ili>
+Info: ilifile </Users/stefan/.ilicache/models.geo.admin.ch/CH/CHBase_Part1_GEOMETRY_V1.ili>
+Info: ilifile <../model/SO_ARP_Bauzonengrenzen_20210120.ili>
+Info: process data...
+Info: data </Users/stefan/sources/afu_ipw_bauzonen/gretl/bauzonengrenzen_2021-01-20.xtf>
+Info: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen BID <SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen>...
+Info: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze...
+Info: bauzonengrenzen_2021-01-20.xtf: SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen BID=SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen
+Info:      73 objects in CLASS SO_ARP_Bauzonengrenzen_20210120.Bauzonengrenzen.Bauzonengrenze
+Info: ...export done
