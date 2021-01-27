@@ -15,19 +15,19 @@ services:
       PG_ROOT_PASSWORD: secret
     ports:
       - "54322:5432"
-    # volumes:
-    #   - ./development_dbs/setup.sql:/pgconf/setup.sql
-    #   - sshd_edit:/sshd
-    #   - pgconf_edit:/pgconf
-    #   - pgdata_edit:/pgdata
-    #   - pgwal_edit:/pgwal
-    #   - recover_edit:/recover
-    #   - backrestrepo_edit:/backrestrepo
+    volumes:
+      - ./development_dbs/setup.sql:/pgconf/setup.sql
+      - sshd_edit:/sshd
+      - pgconf_edit:/pgconf
+      - pgdata_edit:/pgdata
+      - pgwal_edit:/pgwal
+      - recover_edit:/recover
+      - backrestrepo_edit:/backrestrepo
     hostname: primary-edit
-# volumes:
-#   sshd_edit:
-#   pgconf_edit:
-#   pgdata_edit:
-#   pgwal_edit:
-#   recover_edit:
-#   backrestrepo_edit:
+volumes:
+  sshd_edit:
+  pgconf_edit:
+  pgdata_edit:
+  pgwal_edit:
+  recover_edit:
+  backrestrepo_edit:

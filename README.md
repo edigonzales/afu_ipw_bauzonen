@@ -1,5 +1,10 @@
 # afu_ipw_bauzonen
 
+## Requirements
+
+- PostGIS > 3.x (GEOS...)
+
+
 ## Datenbank
 
 ```
@@ -12,13 +17,6 @@ Die Daten bleiben auch z.B. nach `docker-compose stop` oder `docker-compose down
 docker-compose down
 docker volume prune
 ```
-
-`uuid-ossp` extension fehlt (Warum, wegen neuem Crunchydata Image? -> `setup.sql`):
-
-```
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
-```
-(als Superuser)
 
 Credentials: 
 
