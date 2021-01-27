@@ -17,8 +17,6 @@ WHERE
 	AND 
 	(
 		substring(typ_kt from 2 for 2)::int < 20  
-		OR 
-		substring(typ_kt from 2 for 2)::int = 49 --?  
 	)
 GROUP BY
 	bfs_nr
@@ -35,7 +33,7 @@ WHERE
 	bfs_nr = ${bfsnr}
 	AND 
 	(
-		substring(typ_kt from 2 for 2)::int = 43 --?  
+		substring(typ_kt from 2 for 2)::int = 43
 	)
 GROUP BY
 	bfs_nr
