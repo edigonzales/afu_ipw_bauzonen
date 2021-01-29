@@ -38,8 +38,6 @@ VERSION "2021-01-21"  =
       BFSNr : MANDATORY 0 .. 9999;
       /** Geometrien der Bauzonengrenzen dürfen sich nicht überlappen.
        */
-      !!@ name = "EinzugsgebieteAreaConstraint"
-      !!@ ilivalid.msg = "Einzugsgebiete überlappen sich."
       SET CONSTRAINT INTERLIS.areAreas(ALL, UNDEFINED, >> Geometrie);
     END Bauzonengrenze;
 
